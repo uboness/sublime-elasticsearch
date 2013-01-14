@@ -240,8 +240,8 @@ def resolve_cmd_view(window, proc):
     return None
 
 def make_cmd_view(view):
-    view.set_syntax_file('Packages/Elasticsearch/Elasticsearch-Unix-Generic.tmLanguage')
-    view.window().run_command('set_build_system', {"file": "Packages/Elasticsearch/Elasticsearch.sublime-build"})
+    view.set_syntax_file('Packages/sublime-elasticsearch/Elasticsearch-Unix-Generic.tmLanguage')
+    view.window().run_command('set_build_system', {"file": "Packages/sublime-elasticsearch/Elasticsearch.sublime-build"})
     view.settings().set('_es.view', True)
     view.settings().set('_es.view.type', 'cmd')
 
