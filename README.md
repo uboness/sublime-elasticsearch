@@ -1,10 +1,4 @@
-# Sublime Plugins
-
-## Intellij Plugin
-
-An attempt to mimic the keyboard shortcut behavoir of intellij (mainly on the mac)
-
-## Elasticsearch Plugin
+# Elasticsearch Sublime Plugin
 
 It's actually an enhanced bash plugin which assumes the you're executing curl commands to communicate with Elasticsearch.
 
@@ -20,7 +14,11 @@ Try this:
 
 ## On the Mac
 
- * Navigate to the Packages directory of sublime (where it stores all its plugins)
-  - `cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/`
- * Copy the Elastisearch and/or Intellij folders into it
+Navigate to the Packages directory of sublime (where it stores all its plugins)
+
+  ```cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/```
+ 
+Clone this repository
+
+  ```git clone git://github.com/uboness/sublime-elasticsearch.git```
 
