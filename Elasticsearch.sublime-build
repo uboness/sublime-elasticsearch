@@ -1,0 +1,5 @@
+{
+    "selector"  : "source.es",
+    "target"	: "elasticsearch_build",
+    "path"      : "$PATH:/Users/uboness/development/tools/elasticsearch/home/bin"
+}

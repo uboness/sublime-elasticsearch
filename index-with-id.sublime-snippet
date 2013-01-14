@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<snippet>
+    <content><![CDATA[curl -XPOST '${1:localhost}:${2:9200}/${3:index}/${4:type}/${5:id}' -d '{
+    "$6"
+}']]>
+    </content>
+    <tabTrigger>index-with-id</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.es</scope>
+</snippet>

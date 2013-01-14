@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<snippet>
+    <content><![CDATA[curl -XGET '${1:localhost}:${2:9200}${3:/_all${4:/type}}/_search' -d '{
+    "query" : {
+        ${5:"match_all" : \{\}}
+    }
+}']]>
+    </content>
+    <tabTrigger>search</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.es</scope>
+</snippet>

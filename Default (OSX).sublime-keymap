@@ -1,0 +1,10 @@
+[
+    { "keys": ["super+e"], "command": "elasticsearch" },
+
+    { "keys": ["ctrl+space"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: wrap"}, "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true },
+            { "key": "selector", "operator": "equal", "operand": "source.es", "match_all": true }
+        ]
+    }
+]
